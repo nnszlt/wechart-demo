@@ -1,0 +1,16 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.tip {
+  padding: 20rpx;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}

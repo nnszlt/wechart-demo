@@ -17,4 +17,7 @@
    <navigator class='link' url='../demo/message/message'>
     <view class='li'> 6.模板消息</view>
   </navigator>
+   <navigator class='link' url='../demo/component/component'>
+    <view class='li'> 7.自定义组件</view>
+  </navigator>
 </view>

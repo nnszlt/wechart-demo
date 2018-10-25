@@ -1,5 +1,6 @@
 {
   "pages": [
+   
     "pages/index/index",
     "pages/list/list",
     "pages/view/view",
@@ -11,8 +12,8 @@
     "pages/demo/app/app",
     "pages/demo/app/apps/apps",
     "pages/demo/life/life",
-    "pages/demo/message/message"
-    
+    "pages/demo/message/message",
+    "pages/demo/component/component"
   ],
   "window": {
     "backgroundTextStyle": "light",

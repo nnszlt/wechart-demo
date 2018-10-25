@@ -1,0 +1,14 @@
+<!-- 引用组件的页面模版 -->
+
+<view class='tip'>
+  <text class='yellow'>黄色的是 my-component组件 \n \n</text>
+  <text class='red'>红色的是solt   multipleSlots: true \n 在组件定义时的选项中启用多slot支持</text>
+</view>
+
+
+
+<view>
+  <my-component wx:for="{{1}}" list="zlt{{index}}" bindmyevent="myEventListener">
+    <view slot="text">slot中的内容</view>
+  </my-component>
+</view>

@@ -1,0 +1,8 @@
+<!-- 组件模板 -->
+<view class="wrapper" >
+  <text class='block'>循环了几遍：{{list}}</text>
+  <view class='text'>
+    <slot name="text"></slot>
+  </view>
+  <button bindtap="onTap">点钮将触发“myevent”事件</button>
+</view>

@@ -1,0 +1,12 @@
+/* components/component-tag-name.wxss */
+.wrapper{
+  background: yellow;
+  padding: 20rpx;
+}
+.block{
+  display: block;
+  margin: 20px 0px;
+}
+.text{
+  background: red
+}
