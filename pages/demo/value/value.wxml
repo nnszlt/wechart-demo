@@ -1,0 +1,67 @@
+<view class="content">
+  <form bindsubmit="formid" report-submit='true'>
+    <view>form_id={{form_id}}</view>
+    <button form-type="submit">
+      获取form_id
+    </button>
+  </form>
+  <view class='line'></view>
+  <form data-value="我是form的data-value" bindsubmit="formval" report-submit='true'>
+    <view>formval={{form_val}}</view>
+    <button form-type="submit">
+      获取form的值
+    </button>
+  </form>
+  <view class='line'></view>
+  <form bindsubmit="formbtn" report-submit='true'>
+    <view>formbtn={{form_btn}}</view>
+    <button form-type="submit" data-btn="我是form button 的值">
+      获取form btn的值
+    </button>
+  </form>
+  <view class='line'></view>
+  <form bindsubmit="formall" bindreset="formReset">
+    <view class="section section_gap">
+      <view class="section__title">switch</view>
+      <switch name="switch" />
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">slider</view>
+      <slider name="slider" show-value></slider>
+    </view>
+
+    <view class="section">
+      <view class="section__title">input</view>
+      <input name="input" placeholder="please input here" />
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">radio</view>
+      <radio-group name="radio-group">
+        <label>
+          <radio value="radio1" />radio1</label>
+        <label>
+          <radio value="radio2" />radio2</label>
+      </radio-group>
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">checkbox</view>
+      <checkbox-group name="checkbox">
+        <label>
+          <checkbox value="checkbox1" />checkbox1</label>
+        <label>
+          <checkbox value="checkbox2" />checkbox2</label>
+      </checkbox-group>
+    </view>
+    <view class="btn-area">
+      <button formType="submit">获取所有值</button>
+      <button formType="reset">清空所有值</button>
+    </view>
+  </form>
+  <view class='line'></view>
+  <view class='tip'>{{tapval}}</view>
+  <view data-tap="我是点击获取的值" bindtap='tap'>点击获取值</view>
+  <view class='line'></view>
+  <view class='tip'>如果穿的参数类似 www.baidu.com?id=2要跳转页面 onload 自动删除?后边的参数(?id=2 将被删除)</view>
+  <view data-tap="www.baidu.com?id=2" bindtap='link'>页面跳转后边的参数</view>
+  <view class='line'></view>
+</view>

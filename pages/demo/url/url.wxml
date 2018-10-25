@@ -1,0 +1,32 @@
+<view class="content">
+  <view bindtap='redirectTo'>
+    <view>wx.redirectTo</view>
+    <view class='tip'>关闭当前页面，跳转到应用内的某个页面，但是不允许跳转到 tabbar 页面。可传参</view>
+    <view class='line'></view>
+  </view>
+
+  <view bindtap='reLaunch'>
+    <view>wx.reLaunch</view>
+    <view class='tip'>关闭所有页面，打开到应用内的某个页面。可传参</view>
+    <view class='line'></view>
+  </view>
+
+  <view bindtap='navigateTo'>
+    <view>wx.navigateTo</view>
+    <view class='tip'>保留当前页面，跳转到应用内的某个页面，但是不能跳到 tabbar 页面。使用 wx.navigateBack 可以返回到原页面。可传参</view>
+    <view class='line'></view>
+  </view>
+
+  <view bindtap='switchTab'>
+    <view>wx.switchTab</view>
+    <view class='tip'>跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面。不可传参</view>
+    <view class='line'></view>
+  </view>
+
+  <view bindtap='navigateBack'>
+    <view>wx.navigateBack</view>
+    <view class='tip'>再点击</view>
+    <view class='line'></view>
+  </view>
+
+</view>

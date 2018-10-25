@@ -1,0 +1,6 @@
+<view class="content">
+<view>{{list[0].name}}--{{list[0].age}}--{{list[0].like.eat}}--{{list[0].like.play}}</view>
+<view class='tip'>(es6模板换名字)</view>
+<button  bindtap='click' loading='{{btn[0].load}}'>更改名字</button>
+
+</view>

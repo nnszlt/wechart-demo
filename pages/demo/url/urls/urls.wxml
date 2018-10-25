@@ -1,0 +1,7 @@
+<view class='content'>
+  <view bindtap='navigateBack'>
+    <view>wx.navigateBack</view>
+    <view class='tip'>点击第二次</view>
+    <view class='line'></view>
+  </view>
+</view>

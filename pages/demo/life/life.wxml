@@ -1,0 +1,4 @@
+<view class="content">
+<view class='center'>查看console.log()</view>
+<view class='line'></view>
+</view>

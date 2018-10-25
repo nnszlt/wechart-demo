@@ -1,0 +1,20 @@
+<view class="list">
+  <navigator class='link' url='../demo/value/value'>
+    <view class='li'> 1.传值</view>
+  </navigator>
+  <navigator class='link' url='../demo/setdata/setdata'>
+    <view class='li'> 2.setData</view>
+  </navigator>
+  <navigator class='link' url='../demo/url/url'>
+    <view class='li'> 3.url路由</view>
+  </navigator>
+    <navigator class='link' url='../demo/app/app'>
+    <view class='li'> 4.页面赋值</view>
+  </navigator>
+   <navigator class='link' url='../demo/life/life?id=88'>
+    <view class='li'> 5.生命周期</view>
+  </navigator>
+   <navigator class='link' url='../demo/message/message'>
+    <view class='li'> 6.模板消息</view>
+  </navigator>
+</view>

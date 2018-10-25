@@ -1,0 +1,5 @@
+<button bindtap="token" >getAccessToken</button>
+<button bindtap="getOpened" >获取opendid</button>
+<form bindsubmit="send" report-submit="true" >
+<button form-type="submit">发送模板消息</button>
+</form>

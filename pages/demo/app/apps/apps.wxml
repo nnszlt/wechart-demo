@@ -1,0 +1,3 @@
+<view class='content'>
+  <button bindtap="change">改变前一个页面的值</button>
+</view>

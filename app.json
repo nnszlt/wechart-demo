@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/view/view",
+    "pages/demo/value/value",
+    "pages/demo/setdata/setdata",
+    "pages/demo/url/url",
+    "pages/demo/url/urls/urls",
+    "pages/demo/url/urls/urlss/urlss",
+    "pages/demo/app/app",
+    "pages/demo/app/apps/apps",
+    "pages/demo/life/life",
+    "pages/demo/message/message"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的笔记",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "视图"
+      }
+    ],
+    "selectedColor": "red"
+  }
+}

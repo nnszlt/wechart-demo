@@ -1,0 +1,6 @@
+<view class="content">
+
+  <view>tap:传过来的参数{{tap}}</view>
+  <view class='line'></view>
+
+</view>

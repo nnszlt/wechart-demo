@@ -1,0 +1,7 @@
+<view class="content">
+<view class='red'>{{zhi}}</view>
+<view class='line'></view>
+<view bindtap='tap1' class='center'>点击第一个页面</view>
+<view class='line'></view>
+
+</view>
