@@ -1,0 +1,2 @@
+<map markers="{{markers}}" bindmarkertap="icon" bindtap="map" latitude="{{latitude}}" longitude="{{longitude}}" show-location="{{true}}"></map>
+<button bindtap='location'>获取定位 </button>

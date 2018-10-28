@@ -1,0 +1,8 @@
+
+<view>55554</view>
+
+<scroll-view scroll-y bindscrolltolower="scrolltolower">
+  <view class='view' wx:for="{{fors}}" wx:key="{{index}}">
+    {{item}}
+  </view>
+</scroll-view>

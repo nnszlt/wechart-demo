@@ -8,16 +8,25 @@
   <navigator class='link' url='../demo/url/url'>
     <view class='li'> 3.url路由</view>
   </navigator>
-    <navigator class='link' url='../demo/app/app'>
+  <navigator class='link' url='../demo/app/app'>
     <view class='li'> 4.页面赋值</view>
   </navigator>
-   <navigator class='link' url='../demo/life/life?id=88'>
+  <navigator class='link' url='../demo/life/life?id=88'>
     <view class='li'> 5.生命周期</view>
   </navigator>
-   <navigator class='link' url='../demo/message/message'>
+  <navigator class='link' url='../demo/message/message'>
     <view class='li'> 6.模板消息</view>
   </navigator>
-   <navigator class='link' url='../demo/component/component'>
+  <navigator class='link' url='../demo/component/component'>
     <view class='li'> 7.自定义组件</view>
+  </navigator>
+  <navigator class='link' url='../demo/map/map'>
+    <view class='li'> 8.地图组件</view>
+  </navigator>
+  <navigator class='link' url='../demo/movable/movable'>
+    <view class='li'> 9.movable-view组件</view>
+  </navigator>
+  <navigator class='link' url='../demo/up/up'>
+    <view class='li'> 10.上拉加载</view>
   </navigator>
 </view>
