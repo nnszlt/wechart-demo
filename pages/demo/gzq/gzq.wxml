@@ -1,0 +1,3 @@
+
+<view class='flex'>
+{{number1}}+  <input bindinput="bindKeyInput" placeholder="数字" />={{numberSum}}</view>

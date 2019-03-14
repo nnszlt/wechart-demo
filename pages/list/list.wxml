@@ -23,10 +23,20 @@
   <navigator class='link' url='../demo/map/map'>
     <view class='li'> 8.地图组件</view>
   </navigator>
+    <navigator class='link' url='../demo/map/mapmark'>
+    <view class='li'> 9.地图mark</view>
+  </navigator>
   <navigator class='link' url='../demo/movable/movable'>
-    <view class='li'> 9.movable-view组件</view>
+    <view class='li'> 10.movable-view组件</view>
   </navigator>
   <navigator class='link' url='../demo/up/up'>
-    <view class='li'> 10.上拉加载</view>
+    <view class='li'> 11.上拉加载</view>
   </navigator>
+    <navigator class='link' url='../../fenbao/fenbao1'>
+    <view class='li'> 12.分包</view>
+  </navigator>
+  <navigator class='link' url='../demo/gzq/gzq'>
+    <view class='li'> 13.Component构造器</view>
+  </navigator>
+
 </view>

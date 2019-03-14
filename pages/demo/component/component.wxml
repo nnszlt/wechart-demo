@@ -8,7 +8,7 @@
 
 
 <view>
-  <my-component wx:for="{{1}}" list="zlt{{index}}" bindmyevent="myEventListener">
+  <my-component wx:for="{{1}}" wx:key="{{key}}" list="zlt{{index}}" bindmyevent="myEventListener">
     <view slot="text">slot中的内容</view>
   </my-component>
 </view>

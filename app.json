@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/demo/up/up",
+   
     "pages/index/index",
     "pages/list/list",
     "pages/view/view",
@@ -15,7 +15,20 @@
     "pages/demo/message/message",
     "pages/demo/component/component",
     "pages/demo/map/map",
-    "pages/demo/movable/movable"
+    "pages/demo/map/mapmark",
+    "pages/demo/movable/movable",
+    "pages/demo/gzq/gzq",
+    "pages/demo/up/up"
+   
+  ],
+  "subpackages": [
+    {
+      "root": "fenbao",
+      "pages": [
+        "fenbao1"
+      ]
+    
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",
